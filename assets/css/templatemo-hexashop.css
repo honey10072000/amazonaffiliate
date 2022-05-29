@@ -224,6 +224,16 @@ header
   width:110%;
   height:100px;
 }
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width:80%;
+    height:100px;
+    margin-right: 50px;
+  }
+  .header-area .main-nav{
+    margin-left:-39px;
+  }
+}
 .footer-logo img{
 
   width:80%;
